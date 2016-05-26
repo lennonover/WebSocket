@@ -1,0 +1,15 @@
+extends layout
+
+block content
+    p Incoming Chat:&nbsp;
+    ul#incomingChatMessages
+    br
+    input(
+        type='text'
+        name='outgoingChatMessage'
+        id='outgoingChatMessage')
+    input(
+        type='button'
+        name='submit_btn'
+        id='submit_btn'
+        value="发言")
